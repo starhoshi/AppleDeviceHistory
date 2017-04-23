@@ -136,6 +136,7 @@
 				E33110C81EAC9B7200979C34 /* List */,
 			);
 			name = "Views-ViewModels";
+			path = "Views-ViewModels";
 			sourceTree = "<group>";
 		};
 		E33110C71EAC9B5B00979C34 /* Models */ = {
@@ -145,6 +146,7 @@
 				E33110CA1EAC9B7D00979C34 /* Networks */,
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E33110C81EAC9B7200979C34 /* List */ = {
@@ -154,6 +156,7 @@
 				E34FC5571EAC8F8B00D9313F /* ListViewController.swift */,
 			);
 			name = List;
+			path = List;
 			sourceTree = "<group>";
 		};
 		E33110C91EAC9B7700979C34 /* Detail */ = {
@@ -161,6 +164,7 @@
 			children = (
 			);
 			name = Detail;
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		E33110CA1EAC9B7D00979C34 /* Networks */ = {
@@ -170,6 +174,7 @@
 				E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */,
 			);
 			name = Networks;
+			path = Networks;
 			sourceTree = "<group>";
 		};
 		E33110CB1EAC9B9C00979C34 /* Entities */ = {
@@ -179,15 +184,17 @@
 				E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */,
 			);
 			name = Entities;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		E33110CC1EAC9C0B00979C34 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				E33110D01EAC9C4E00979C34 /* DeviceVersion+Ex.swift */,
 				E33110D21EAC9C6000979C34 /* DeviceType+Ex.swift */,
+				E33110D01EAC9C4E00979C34 /* DeviceVersion+Ex.swift */,
 			);
 			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E33110CD1EAC9C1800979C34 /* Utils */ = {
@@ -196,6 +203,7 @@
 				E33110CE1EAC9C2B00979C34 /* Log.swift */,
 			);
 			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		E33110E21EACAC4100979C34 /* Cell */ = {
@@ -205,6 +213,7 @@
 				E33110E41EACAC8500979C34 /* ListTableViewCell.xib */,
 			);
 			name = Cell;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		E34FC5491EAC8F8B00D9313F = {
@@ -230,11 +239,11 @@
 		E34FC5541EAC8F8B00D9313F /* AppleDeviceHistory */ = {
 			isa = PBXGroup;
 			children = (
-				E33110CD1EAC9C1800979C34 /* Utils */,
 				E33110CC1EAC9C0B00979C34 /* Extensions */,
 				E33110C71EAC9B5B00979C34 /* Models */,
-				E33110C61EAC9B4D00979C34 /* Views-ViewModels */,
 				E34FC5831EAC904D00D9313F /* Resources */,
+				E33110CD1EAC9C1800979C34 /* Utils */,
+				E33110C61EAC9B4D00979C34 /* Views-ViewModels */,
 				E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */,
 			);
 			path = AppleDeviceHistory;
@@ -252,11 +261,11 @@
 		E34FC5831EAC904D00D9313F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E33110E81EACB00C00979C34 /* R.generated.swift */,
 				E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */,
 				E34FC5611EAC8F8B00D9313F /* Info.plist */,
-				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
 				E33110EA1EACB0D400979C34 /* LaunchScreen.storyboard */,
+				E33110E81EACB00C00979C34 /* R.generated.swift */,
+				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
