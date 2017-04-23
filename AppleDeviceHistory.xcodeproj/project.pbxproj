@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BFBB7AFADAE4FF76898B575E /* Pods_AppleDeviceHistory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */; };
+		E33110CF1EAC9C2B00979C34 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110CE1EAC9C2B00979C34 /* Log.swift */; };
+		E33110D11EAC9C4E00979C34 /* DeviceVersion+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D01EAC9C4E00979C34 /* DeviceVersion+Ex.swift */; };
+		E33110D31EAC9C6000979C34 /* DeviceType+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D21EAC9C6000979C34 /* DeviceType+Ex.swift */; };
+		E33110D51EAC9CB000979C34 /* AppleDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D41EAC9CB000979C34 /* AppleDevice.swift */; };
+		E33110D71EAC9CCA00979C34 /* AppleDeviceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D61EAC9CCA00979C34 /* AppleDeviceAPI.swift */; };
+		E33110D91EAC9CDD00979C34 /* AppleDeviceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */; };
+		E33110DB1EAC9D5800979C34 /* AppleDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */; };
 		E34FC5561EAC8F8B00D9313F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */; };
 		E34FC5581EAC8F8B00D9313F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5571EAC8F8B00D9313F /* ViewController.swift */; };
 		E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5591EAC8F8B00D9313F /* Main.storyboard */; };
@@ -39,6 +46,13 @@
 /* Begin PBXFileReference section */
 		8E5DF995BA1C65466693D70E /* Pods-AppleDeviceHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDeviceHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory.release.xcconfig"; sourceTree = "<group>"; };
 		C94079D339B94AD10F9F502E /* Pods-AppleDeviceHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDeviceHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory.debug.xcconfig"; sourceTree = "<group>"; };
+		E33110CE1EAC9C2B00979C34 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		E33110D01EAC9C4E00979C34 /* DeviceVersion+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceVersion+Ex.swift"; sourceTree = "<group>"; };
+		E33110D21EAC9C6000979C34 /* DeviceType+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DeviceType+Ex.swift"; sourceTree = "<group>"; };
+		E33110D41EAC9CB000979C34 /* AppleDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDevice.swift; sourceTree = "<group>"; };
+		E33110D61EAC9CCA00979C34 /* AppleDeviceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceAPI.swift; sourceTree = "<group>"; };
+		E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceRequest.swift; sourceTree = "<group>"; };
+		E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceList.swift; sourceTree = "<group>"; };
 		E34FC5521EAC8F8B00D9313F /* AppleDeviceHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDeviceHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +113,73 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E33110C61EAC9B4D00979C34 /* Views-ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E33110C91EAC9B7700979C34 /* Detail */,
+				E33110C81EAC9B7200979C34 /* List */,
+			);
+			name = "Views-ViewModels";
+			sourceTree = "<group>";
+		};
+		E33110C71EAC9B5B00979C34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E33110CB1EAC9B9C00979C34 /* Entities */,
+				E33110CA1EAC9B7D00979C34 /* Networks */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E33110C81EAC9B7200979C34 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		E33110C91EAC9B7700979C34 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		E33110CA1EAC9B7D00979C34 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				E33110D61EAC9CCA00979C34 /* AppleDeviceAPI.swift */,
+				E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */,
+			);
+			name = Networks;
+			sourceTree = "<group>";
+		};
+		E33110CB1EAC9B9C00979C34 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E33110D41EAC9CB000979C34 /* AppleDevice.swift */,
+				E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		E33110CC1EAC9C0B00979C34 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E33110D01EAC9C4E00979C34 /* DeviceVersion+Ex.swift */,
+				E33110D21EAC9C6000979C34 /* DeviceType+Ex.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E33110CD1EAC9C1800979C34 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E33110CE1EAC9C2B00979C34 /* Log.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		E34FC5491EAC8F8B00D9313F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +203,10 @@
 		E34FC5541EAC8F8B00D9313F /* AppleDeviceHistory */ = {
 			isa = PBXGroup;
 			children = (
+				E33110CD1EAC9C1800979C34 /* Utils */,
+				E33110CC1EAC9C0B00979C34 /* Extensions */,
+				E33110C71EAC9B5B00979C34 /* Models */,
+				E33110C61EAC9B4D00979C34 /* Views-ViewModels */,
 				E34FC5831EAC904D00D9313F /* Resources */,
 				E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */,
 				E34FC5591EAC8F8B00D9313F /* Main.storyboard */,
@@ -363,8 +448,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33110D51EAC9CB000979C34 /* AppleDevice.swift in Sources */,
+				E33110D71EAC9CCA00979C34 /* AppleDeviceAPI.swift in Sources */,
 				E34FC5581EAC8F8B00D9313F /* ViewController.swift in Sources */,
+				E33110D31EAC9C6000979C34 /* DeviceType+Ex.swift in Sources */,
 				E34FC5561EAC8F8B00D9313F /* AppDelegate.swift in Sources */,
+				E33110CF1EAC9C2B00979C34 /* Log.swift in Sources */,
+				E33110DB1EAC9D5800979C34 /* AppleDeviceList.swift in Sources */,
+				E33110D91EAC9CDD00979C34 /* AppleDeviceRequest.swift in Sources */,
+				E33110D11EAC9C4E00979C34 /* DeviceVersion+Ex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

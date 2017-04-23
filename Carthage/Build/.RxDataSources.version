@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3.1\nBuild version 8E1000a",
+  "commitish" : "1.0.3",
+  "iOS" : [
+    {
+      "hash" : "df30ca1a1b35187a9c3cf27f3322dd08d3f4559225a0e453c74d33e2a5c93188",
+      "name" : "RxDataSources"
+    }
+  ]
+}
