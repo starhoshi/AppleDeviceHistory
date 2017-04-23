@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3.1\nBuild version 8E1000a",
+  "commitish" : "2.2.6",
+  "iOS" : [
+    {
+      "hash" : "202c22158f2d538a1955e5470c3c4bcc5c7fd401e2d21a099dd07efba1bd2ba3",
+      "name" : "ObjectMapper"
+    }
+  ]
+}

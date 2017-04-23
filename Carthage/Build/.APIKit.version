@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3.1\nBuild version 8E1000a",
+  "commitish" : "3.1.2",
+  "iOS" : [
+    {
+      "hash" : "68c3c75e5fcc4cdfeefea473b9c5060316a5077d08e3dd71ae31a6640b7b2bfd",
+      "name" : "APIKit"
+    }
+  ]
+}

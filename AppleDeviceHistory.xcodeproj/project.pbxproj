@@ -34,9 +34,9 @@
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E34FC55A1EAC8F8B00D9313F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AppleDeviceHistory/Assets.xcassets; sourceTree = "<group>"; };
+		E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34FC55F1EAC8F8B00D9313F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E34FC5611EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AppleDeviceHistory/Info.plist; sourceTree = "<group>"; };
+		E34FC5611EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
 		E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDeviceHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceHistoryTests.swift; sourceTree = "<group>"; };
 		E34FC56C1EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,9 +80,9 @@
 				E34FC5541EAC8F8B00D9313F /* AppleDeviceHistory */,
 				E34FC5691EAC8F8B00D9313F /* AppleDeviceHistoryTests */,
 				E34FC5741EAC8F8B00D9313F /* AppleDeviceHistoryUITests */,
-				E34FC5531EAC8F8B00D9313F /* Products */,
-				75759FC14B64B99DC92C734B /* Pods */,
 				F55D52DA94AD653E15D1A19F /* Frameworks */,
+				75759FC14B64B99DC92C734B /* Pods */,
+				E34FC5531EAC8F8B00D9313F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +100,8 @@
 			children = (
 				E34FC5831EAC904D00D9313F /* Resources */,
 				E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */,
-				E34FC5571EAC8F8B00D9313F /* ViewController.swift */,
 				E34FC5591EAC8F8B00D9313F /* Main.storyboard */,
+				E34FC5571EAC8F8B00D9313F /* ViewController.swift */,
 			);
 			path = AppleDeviceHistory;
 			sourceTree = "<group>";
@@ -127,13 +127,13 @@
 		E34FC5831EAC904D00D9313F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */,
 				E34FC5611EAC8F8B00D9313F /* Info.plist */,
 				E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */,
-				E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */,
 				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
 			);
 			name = Resources;
-			path = ..;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F55D52DA94AD653E15D1A19F /* Frameworks */ = {
@@ -346,6 +346,7 @@
 				E34FC55A1EAC8F8B00D9313F /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */ = {
@@ -354,7 +355,7 @@
 				E34FC55F1EAC8F8B00D9313F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = AppleDeviceHistory;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

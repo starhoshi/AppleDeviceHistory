@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.3.1\nBuild version 8E1000a",
+  "commitish" : "4.1.1",
+  "iOS" : [
+    {
+      "hash" : "3df5eca89f3a3dac859c3616f7b0aabbe211274034adeaf5e8cdddf136bc72d7",
+      "name" : "SwiftDate"
+    }
+  ]
+}
