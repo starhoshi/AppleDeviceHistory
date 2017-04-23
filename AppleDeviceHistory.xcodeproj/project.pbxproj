@@ -351,7 +351,7 @@
 					E34FC5511EAC8F8B00D9313F = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 5J5Q4ZGXZR;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					E34FC5651EAC8F8B00D9313F = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -659,6 +659,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "723a17ba-0369-4c46-8395-a98282f1cf9d";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.starhoshi.AppleDeviceHistory";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -669,6 +671,7 @@
 			baseConfigurationReference = 8E5DF995BA1C65466693D70E /* Pods-AppleDeviceHistory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -680,6 +683,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "408b3f34-04f5-45b2-91d4-858e48d6f3d1";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.starhoshi.AppleDeviceHistory";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
