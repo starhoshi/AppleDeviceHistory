@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFBB7AFADAE4FF76898B575E /* Pods_AppleDeviceHistory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */; };
 		E34FC5561EAC8F8B00D9313F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */; };
 		E34FC5581EAC8F8B00D9313F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5571EAC8F8B00D9313F /* ViewController.swift */; };
 		E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5591EAC8F8B00D9313F /* Main.storyboard */; };
 		E34FC55D1EAC8F8B00D9313F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */; };
 		E34FC5601EAC8F8B00D9313F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */; };
 		E34FC56B1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */; };
-		E34FC5761EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5751EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift */; };
+		E34FC5851EAC92AF00D9313F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5841EAC92AF00D9313F /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,16 +25,11 @@
 			remoteGlobalIDString = E34FC5511EAC8F8B00D9313F;
 			remoteInfo = AppleDeviceHistory;
 		};
-		E34FC5721EAC8F8B00D9313F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E34FC54A1EAC8F8B00D9313F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E34FC5511EAC8F8B00D9313F;
-			remoteInfo = AppleDeviceHistory;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E5DF995BA1C65466693D70E /* Pods-AppleDeviceHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDeviceHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory.release.xcconfig"; sourceTree = "<group>"; };
+		C94079D339B94AD10F9F502E /* Pods-AppleDeviceHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleDeviceHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory.debug.xcconfig"; sourceTree = "<group>"; };
 		E34FC5521EAC8F8B00D9313F /* AppleDeviceHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDeviceHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,9 +40,10 @@
 		E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDeviceHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceHistoryTests.swift; sourceTree = "<group>"; };
 		E34FC56C1EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E34FC5711EAC8F8B00D9313F /* AppleDeviceHistoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDeviceHistoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC5751EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceHistoryUITests.swift; sourceTree = "<group>"; };
 		E34FC5771EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34FC5841EAC92AF00D9313F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleDeviceHistory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBB7AFADAE4FF76898B575E /* Pods_AppleDeviceHistory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,16 +62,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34FC56E1EAC8F8B00D9313F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75759FC14B64B99DC92C734B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94079D339B94AD10F9F502E /* Pods-AppleDeviceHistory.debug.xcconfig */,
+				8E5DF995BA1C65466693D70E /* Pods-AppleDeviceHistory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E34FC5491EAC8F8B00D9313F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +81,8 @@
 				E34FC5691EAC8F8B00D9313F /* AppleDeviceHistoryTests */,
 				E34FC5741EAC8F8B00D9313F /* AppleDeviceHistoryUITests */,
 				E34FC5531EAC8F8B00D9313F /* Products */,
+				75759FC14B64B99DC92C734B /* Pods */,
+				F55D52DA94AD653E15D1A19F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +91,6 @@
 			children = (
 				E34FC5521EAC8F8B00D9313F /* AppleDeviceHistory.app */,
 				E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */,
-				E34FC5711EAC8F8B00D9313F /* AppleDeviceHistoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,9 +130,18 @@
 				E34FC5611EAC8F8B00D9313F /* Info.plist */,
 				E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */,
 				E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */,
+				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
 			);
 			name = Resources;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		F55D52DA94AD653E15D1A19F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +151,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E34FC57A1EAC8F8B00D9313F /* Build configuration list for PBXNativeTarget "AppleDeviceHistory" */;
 			buildPhases = (
+				4882583D5550E7AE8299E948 /* [CP] Check Pods Manifest.lock */,
 				E34FC54E1EAC8F8B00D9313F /* Sources */,
 				E34FC54F1EAC8F8B00D9313F /* Frameworks */,
 				E34FC5501EAC8F8B00D9313F /* Resources */,
+				D838DF3F1387AE53494116A0 /* [CP] Embed Pods Frameworks */,
+				9593B618571D273C84C539F6 /* [CP] Copy Pods Resources */,
+				E34FC5861EAC92FA00D9313F /* Run Script - Settings.bundle */,
 			);
 			buildRules = (
 			);
@@ -172,24 +186,6 @@
 			productReference = E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E34FC5701EAC8F8B00D9313F /* AppleDeviceHistoryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E34FC5801EAC8F8B00D9313F /* Build configuration list for PBXNativeTarget "AppleDeviceHistoryUITests" */;
-			buildPhases = (
-				E34FC56D1EAC8F8B00D9313F /* Sources */,
-				E34FC56E1EAC8F8B00D9313F /* Frameworks */,
-				E34FC56F1EAC8F8B00D9313F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E34FC5731EAC8F8B00D9313F /* PBXTargetDependency */,
-			);
-			name = AppleDeviceHistoryUITests;
-			productName = AppleDeviceHistoryUITests;
-			productReference = E34FC5711EAC8F8B00D9313F /* AppleDeviceHistoryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,12 +202,6 @@
 						ProvisioningStyle = Automatic;
 					};
 					E34FC5651EAC8F8B00D9313F = {
-						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 5J5Q4ZGXZR;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E34FC5511EAC8F8B00D9313F;
-					};
-					E34FC5701EAC8F8B00D9313F = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 5J5Q4ZGXZR;
 						ProvisioningStyle = Automatic;
@@ -234,7 +224,6 @@
 			targets = (
 				E34FC5511EAC8F8B00D9313F /* AppleDeviceHistory */,
 				E34FC5651EAC8F8B00D9313F /* AppleDeviceHistoryTests */,
-				E34FC5701EAC8F8B00D9313F /* AppleDeviceHistoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34FC5851EAC92AF00D9313F /* Settings.bundle in Resources */,
 				E34FC5601EAC8F8B00D9313F /* LaunchScreen.storyboard in Resources */,
 				E34FC55D1EAC8F8B00D9313F /* Assets.xcassets in Resources */,
 				E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */,
@@ -257,14 +247,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34FC56F1EAC8F8B00D9313F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4882583D5550E7AE8299E948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		9593B618571D273C84C539F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D838DF3F1387AE53494116A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E34FC5861EAC92FA00D9313F /* Run Script - Settings.bundle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Settings.bundle";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "APP_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:0:DefaultValue ${APP_VERSION}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\nBUILD_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:1:DefaultValue ${BUILD_NUMBER}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E34FC54E1EAC8F8B00D9313F /* Sources */ = {
@@ -284,14 +329,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E34FC56D1EAC8F8B00D9313F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E34FC5761EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,11 +336,6 @@
 			isa = PBXTargetDependency;
 			target = E34FC5511EAC8F8B00D9313F /* AppleDeviceHistory */;
 			targetProxy = E34FC5671EAC8F8B00D9313F /* PBXContainerItemProxy */;
-		};
-		E34FC5731EAC8F8B00D9313F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E34FC5511EAC8F8B00D9313F /* AppleDeviceHistory */;
-			targetProxy = E34FC5721EAC8F8B00D9313F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -352,6 +384,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -375,6 +408,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -402,6 +436,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -418,32 +453,39 @@
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		E34FC57B1EAC8F8B00D9313F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94079D339B94AD10F9F502E /* Pods-AppleDeviceHistory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
 				INFOPLIST_FILE = AppleDeviceHistory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		E34FC57C1EAC8F8B00D9313F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5DF995BA1C65466693D70E /* Pods-AppleDeviceHistory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
 				INFOPLIST_FILE = AppleDeviceHistory/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -452,6 +494,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
 				INFOPLIST_FILE = AppleDeviceHistoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -459,6 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDeviceHistory.app/AppleDeviceHistory";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -467,6 +511,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
 				INFOPLIST_FILE = AppleDeviceHistoryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,34 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleDeviceHistory.app/AppleDeviceHistory";
-			};
-			name = Release;
-		};
-		E34FC5811EAC8F8B00D9313F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
-				INFOPLIST_FILE = AppleDeviceHistoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = AppleDeviceHistory;
-			};
-			name = Debug;
-		};
-		E34FC5821EAC8F8B00D9313F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
-				INFOPLIST_FILE = AppleDeviceHistoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = AppleDeviceHistory;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -524,6 +542,7 @@
 				E34FC57C1EAC8F8B00D9313F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E34FC57D1EAC8F8B00D9313F /* Build configuration list for PBXNativeTarget "AppleDeviceHistoryTests" */ = {
 			isa = XCConfigurationList;
@@ -532,14 +551,7 @@
 				E34FC57F1EAC8F8B00D9313F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		E34FC5801EAC8F8B00D9313F /* Build configuration list for PBXNativeTarget "AppleDeviceHistoryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E34FC5811EAC8F8B00D9313F /* Debug */,
-				E34FC5821EAC8F8B00D9313F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
