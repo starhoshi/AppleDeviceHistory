@@ -15,6 +15,9 @@
 		E33110D71EAC9CCA00979C34 /* AppleDeviceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D61EAC9CCA00979C34 /* AppleDeviceAPI.swift */; };
 		E33110D91EAC9CDD00979C34 /* AppleDeviceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */; };
 		E33110DB1EAC9D5800979C34 /* AppleDeviceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */; };
+		E33110DF1EAC9E7300979C34 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DC1EAC9E7300979C34 /* RxCocoa.framework */; };
+		E33110E01EAC9E7300979C34 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DD1EAC9E7300979C34 /* RxDataSources.framework */; };
+		E33110E11EAC9E7300979C34 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DE1EAC9E7300979C34 /* RxSwift.framework */; };
 		E34FC5561EAC8F8B00D9313F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */; };
 		E34FC5581EAC8F8B00D9313F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5571EAC8F8B00D9313F /* ViewController.swift */; };
 		E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5591EAC8F8B00D9313F /* Main.storyboard */; };
@@ -53,6 +56,9 @@
 		E33110D61EAC9CCA00979C34 /* AppleDeviceAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceAPI.swift; sourceTree = "<group>"; };
 		E33110D81EAC9CDD00979C34 /* AppleDeviceRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceRequest.swift; sourceTree = "<group>"; };
 		E33110DA1EAC9D5800979C34 /* AppleDeviceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleDeviceList.swift; sourceTree = "<group>"; };
+		E33110DC1EAC9E7300979C34 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		E33110DD1EAC9E7300979C34 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
+		E33110DE1EAC9E7300979C34 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		E34FC5521EAC8F8B00D9313F /* AppleDeviceHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDeviceHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +91,9 @@
 				E34FC5911EAC984100D9313F /* APIKit.framework in Frameworks */,
 				E34FC5921EAC984100D9313F /* Device.framework in Frameworks */,
 				E34FC5931EAC984100D9313F /* ObjectMapper.framework in Frameworks */,
+				E33110DF1EAC9E7300979C34 /* RxCocoa.framework in Frameworks */,
+				E33110E01EAC9E7300979C34 /* RxDataSources.framework in Frameworks */,
+				E33110E11EAC9E7300979C34 /* RxSwift.framework in Frameworks */,
 				E34FC5941EAC984100D9313F /* Result.framework in Frameworks */,
 				E34FC5951EAC984100D9313F /* SnapKit.framework in Frameworks */,
 				E34FC5961EAC984100D9313F /* SVProgressHUD.framework in Frameworks */,
@@ -238,6 +247,9 @@
 		F55D52DA94AD653E15D1A19F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E33110DC1EAC9E7300979C34 /* RxCocoa.framework */,
+				E33110DD1EAC9E7300979C34 /* RxDataSources.framework */,
+				E33110DE1EAC9E7300979C34 /* RxSwift.framework */,
 				E34FC5881EAC984100D9313F /* APIKit.framework */,
 				E34FC5891EAC984100D9313F /* Device.framework */,
 				E34FC58A1EAC984100D9313F /* ObjectMapper.framework */,
@@ -433,6 +445,9 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Device.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
 			);
 			name = "Run Script - Carthage";
 			outputPaths = (
