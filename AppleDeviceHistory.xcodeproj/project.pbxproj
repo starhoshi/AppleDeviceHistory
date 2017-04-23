@@ -15,6 +15,15 @@
 		E34FC5601EAC8F8B00D9313F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */; };
 		E34FC56B1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */; };
 		E34FC5851EAC92AF00D9313F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5841EAC92AF00D9313F /* Settings.bundle */; };
+		E34FC5911EAC984100D9313F /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC5881EAC984100D9313F /* APIKit.framework */; };
+		E34FC5921EAC984100D9313F /* Device.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC5891EAC984100D9313F /* Device.framework */; };
+		E34FC5931EAC984100D9313F /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58A1EAC984100D9313F /* ObjectMapper.framework */; };
+		E34FC5941EAC984100D9313F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58B1EAC984100D9313F /* Result.framework */; };
+		E34FC5951EAC984100D9313F /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58C1EAC984100D9313F /* SnapKit.framework */; };
+		E34FC5961EAC984100D9313F /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58D1EAC984100D9313F /* SVProgressHUD.framework */; };
+		E34FC5971EAC984100D9313F /* SwiftDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58E1EAC984100D9313F /* SwiftDate.framework */; };
+		E34FC5981EAC984100D9313F /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC58F1EAC984100D9313F /* SwiftyBeaver.framework */; };
+		E34FC5991EAC984100D9313F /* SwiftyUserDefaults.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E34FC5901EAC984100D9313F /* SwiftyUserDefaults.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,15 +43,22 @@
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E34FC55A1EAC8F8B00D9313F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets.xcassets; sourceTree = "<group>"; };
+		E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34FC55F1EAC8F8B00D9313F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E34FC5611EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Info.plist; sourceTree = "<group>"; };
+		E34FC5611EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDeviceHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceHistoryTests.swift; sourceTree = "<group>"; };
 		E34FC56C1EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E34FC5751EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleDeviceHistoryUITests.swift; sourceTree = "<group>"; };
-		E34FC5771EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E34FC5841EAC92AF00D9313F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E34FC5881EAC984100D9313F /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		E34FC5891EAC984100D9313F /* Device.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Device.framework; path = Carthage/Build/iOS/Device.framework; sourceTree = "<group>"; };
+		E34FC58A1EAC984100D9313F /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		E34FC58B1EAC984100D9313F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		E34FC58C1EAC984100D9313F /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		E34FC58D1EAC984100D9313F /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		E34FC58E1EAC984100D9313F /* SwiftDate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftDate.framework; path = Carthage/Build/iOS/SwiftDate.framework; sourceTree = "<group>"; };
+		E34FC58F1EAC984100D9313F /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		E34FC5901EAC984100D9313F /* SwiftyUserDefaults.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyUserDefaults.framework; path = Carthage/Build/iOS/SwiftyUserDefaults.framework; sourceTree = "<group>"; };
 		F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleDeviceHistory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -52,6 +68,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFBB7AFADAE4FF76898B575E /* Pods_AppleDeviceHistory.framework in Frameworks */,
+				E34FC5911EAC984100D9313F /* APIKit.framework in Frameworks */,
+				E34FC5921EAC984100D9313F /* Device.framework in Frameworks */,
+				E34FC5931EAC984100D9313F /* ObjectMapper.framework in Frameworks */,
+				E34FC5941EAC984100D9313F /* Result.framework in Frameworks */,
+				E34FC5951EAC984100D9313F /* SnapKit.framework in Frameworks */,
+				E34FC5961EAC984100D9313F /* SVProgressHUD.framework in Frameworks */,
+				E34FC5971EAC984100D9313F /* SwiftDate.framework in Frameworks */,
+				E34FC5981EAC984100D9313F /* SwiftyBeaver.framework in Frameworks */,
+				E34FC5991EAC984100D9313F /* SwiftyUserDefaults.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +104,6 @@
 			children = (
 				E34FC5541EAC8F8B00D9313F /* AppleDeviceHistory */,
 				E34FC5691EAC8F8B00D9313F /* AppleDeviceHistoryTests */,
-				E34FC5741EAC8F8B00D9313F /* AppleDeviceHistoryUITests */,
 				F55D52DA94AD653E15D1A19F /* Frameworks */,
 				75759FC14B64B99DC92C734B /* Pods */,
 				E34FC5531EAC8F8B00D9313F /* Products */,
@@ -115,15 +139,6 @@
 			path = AppleDeviceHistoryTests;
 			sourceTree = "<group>";
 		};
-		E34FC5741EAC8F8B00D9313F /* AppleDeviceHistoryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E34FC5751EAC8F8B00D9313F /* AppleDeviceHistoryUITests.swift */,
-				E34FC5771EAC8F8B00D9313F /* Info.plist */,
-			);
-			path = AppleDeviceHistoryUITests;
-			sourceTree = "<group>";
-		};
 		E34FC5831EAC904D00D9313F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,13 +147,21 @@
 				E34FC55E1EAC8F8B00D9313F /* LaunchScreen.storyboard */,
 				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
 		F55D52DA94AD653E15D1A19F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E34FC5881EAC984100D9313F /* APIKit.framework */,
+				E34FC5891EAC984100D9313F /* Device.framework */,
+				E34FC58A1EAC984100D9313F /* ObjectMapper.framework */,
+				E34FC58B1EAC984100D9313F /* Result.framework */,
+				E34FC58C1EAC984100D9313F /* SnapKit.framework */,
+				E34FC58D1EAC984100D9313F /* SVProgressHUD.framework */,
+				E34FC58E1EAC984100D9313F /* SwiftDate.framework */,
+				E34FC58F1EAC984100D9313F /* SwiftyBeaver.framework */,
+				E34FC5901EAC984100D9313F /* SwiftyUserDefaults.framework */,
 				F20AD728C9787B7A4F8DF097 /* Pods_AppleDeviceHistory.framework */,
 			);
 			name = Frameworks;
@@ -153,6 +176,7 @@
 			buildPhases = (
 				4882583D5550E7AE8299E948 /* [CP] Check Pods Manifest.lock */,
 				E34FC54E1EAC8F8B00D9313F /* Sources */,
+				E34FC5871EAC975A00D9313F /* Run Script - Carthage */,
 				E34FC54F1EAC8F8B00D9313F /* Frameworks */,
 				E34FC5501EAC8F8B00D9313F /* Resources */,
 				D838DF3F1387AE53494116A0 /* [CP] Embed Pods Frameworks */,
@@ -308,6 +332,29 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "APP_VERSION=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:0:DefaultValue ${APP_VERSION}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"\n\nBUILD_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" $PRODUCT_SETTINGS_PATH)\n/usr/libexec/PlistBuddy -c \"Set :PreferenceSpecifiers:1:DefaultValue ${BUILD_NUMBER}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Settings.bundle/Root.plist\"";
+		};
+		E34FC5871EAC975A00D9313F /* Run Script - Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/APIKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyUserDefaults.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftDate.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Device.framework",
+			);
+			name = "Run Script - Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -465,7 +512,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
-				INFOPLIST_FILE = AppleDeviceHistory/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AppleDeviceHistory/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,7 +532,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5J5Q4ZGXZR;
-				INFOPLIST_FILE = AppleDeviceHistory/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = AppleDeviceHistory/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";

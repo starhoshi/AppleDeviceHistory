@@ -1,9 +1,10 @@
 github "ishkawa/APIKit"
 github "Hearst-DD/ObjectMapper"
 github "SVProgressHUD/SVProgressHUD"
-github "malcommac/SwiftDate"
-github "radex/SwiftyUserDefaults"
 github "SnapKit/SnapKit" ~> 3.1.2
 github "SwiftyBeaver/SwiftyBeaver"
 github "Ekhoo/Device" ~> 3.0.1
+github "ReactiveX/RxSwift" ~> 3.0
+github "RxSwiftCommunity/RxDataSources" ~> 1.0
+github "onevcat/Kingfisher"
 
