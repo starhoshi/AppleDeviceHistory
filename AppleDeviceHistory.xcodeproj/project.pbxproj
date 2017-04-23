@@ -18,9 +18,13 @@
 		E33110DF1EAC9E7300979C34 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DC1EAC9E7300979C34 /* RxCocoa.framework */; };
 		E33110E01EAC9E7300979C34 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DD1EAC9E7300979C34 /* RxDataSources.framework */; };
 		E33110E11EAC9E7300979C34 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110DE1EAC9E7300979C34 /* RxSwift.framework */; };
+		E33110E51EACAC8500979C34 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110E31EACAC8500979C34 /* ListTableViewCell.swift */; };
+		E33110E61EACAC8500979C34 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33110E41EACAC8500979C34 /* ListTableViewCell.xib */; };
+		E33110E91EACB00C00979C34 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33110E81EACB00C00979C34 /* R.generated.swift */; };
+		E33110EB1EACB0D400979C34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33110EA1EACB0D400979C34 /* LaunchScreen.storyboard */; };
+		E33110ED1EACB3CE00979C34 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33110EC1EACB3CE00979C34 /* Kingfisher.framework */; };
 		E34FC5561EAC8F8B00D9313F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */; };
 		E34FC5581EAC8F8B00D9313F /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC5571EAC8F8B00D9313F /* ListViewController.swift */; };
-		E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5591EAC8F8B00D9313F /* Main.storyboard */; };
 		E34FC55D1EAC8F8B00D9313F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */; };
 		E34FC56B1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34FC56A1EAC8F8B00D9313F /* AppleDeviceHistoryTests.swift */; };
 		E34FC5851EAC92AF00D9313F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E34FC5841EAC92AF00D9313F /* Settings.bundle */; };
@@ -58,10 +62,14 @@
 		E33110DC1EAC9E7300979C34 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		E33110DD1EAC9E7300979C34 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		E33110DE1EAC9E7300979C34 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E33110E31EACAC8500979C34 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		E33110E41EACAC8500979C34 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		E33110E81EACB00C00979C34 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		E33110EA1EACB0D400979C34 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33110EC1EACB3CE00979C34 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		E34FC5521EAC8F8B00D9313F /* AppleDeviceHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleDeviceHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E34FC5571EAC8F8B00D9313F /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		E34FC55A1EAC8F8B00D9313F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E34FC5611EAC8F8B00D9313F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E34FC5661EAC8F8B00D9313F /* AppleDeviceHistoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleDeviceHistoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +106,7 @@
 				E34FC5971EAC984100D9313F /* SwiftDate.framework in Frameworks */,
 				E34FC5981EAC984100D9313F /* SwiftyBeaver.framework in Frameworks */,
 				E34FC5991EAC984100D9313F /* SwiftyUserDefaults.framework in Frameworks */,
+				E33110ED1EACB3CE00979C34 /* Kingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +150,7 @@
 		E33110C81EAC9B7200979C34 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				E33110E21EACAC4100979C34 /* Cell */,
 				E34FC5571EAC8F8B00D9313F /* ListViewController.swift */,
 			);
 			name = List;
@@ -188,6 +198,15 @@
 			name = Utils;
 			sourceTree = "<group>";
 		};
+		E33110E21EACAC4100979C34 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E33110E31EACAC8500979C34 /* ListTableViewCell.swift */,
+				E33110E41EACAC8500979C34 /* ListTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		E34FC5491EAC8F8B00D9313F = {
 			isa = PBXGroup;
 			children = (
@@ -217,7 +236,6 @@
 				E33110C61EAC9B4D00979C34 /* Views-ViewModels */,
 				E34FC5831EAC904D00D9313F /* Resources */,
 				E34FC5551EAC8F8B00D9313F /* AppDelegate.swift */,
-				E34FC5591EAC8F8B00D9313F /* Main.storyboard */,
 			);
 			path = AppleDeviceHistory;
 			sourceTree = "<group>";
@@ -234,9 +252,11 @@
 		E34FC5831EAC904D00D9313F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E33110E81EACB00C00979C34 /* R.generated.swift */,
 				E34FC55C1EAC8F8B00D9313F /* Assets.xcassets */,
 				E34FC5611EAC8F8B00D9313F /* Info.plist */,
 				E34FC5841EAC92AF00D9313F /* Settings.bundle */,
+				E33110EA1EACB0D400979C34 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -244,6 +264,7 @@
 		F55D52DA94AD653E15D1A19F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E33110EC1EACB3CE00979C34 /* Kingfisher.framework */,
 				E33110DC1EAC9E7300979C34 /* RxCocoa.framework */,
 				E33110DD1EAC9E7300979C34 /* RxDataSources.framework */,
 				E33110DE1EAC9E7300979C34 /* RxSwift.framework */,
@@ -269,8 +290,9 @@
 			buildConfigurationList = E34FC57A1EAC8F8B00D9313F /* Build configuration list for PBXNativeTarget "AppleDeviceHistory" */;
 			buildPhases = (
 				4882583D5550E7AE8299E948 /* [CP] Check Pods Manifest.lock */,
-				E34FC54E1EAC8F8B00D9313F /* Sources */,
 				E34FC5871EAC975A00D9313F /* Run Script - Carthage */,
+				E33110E71EACAFBE00979C34 /* Run Script - R.swift */,
+				E34FC54E1EAC8F8B00D9313F /* Sources */,
 				E34FC54F1EAC8F8B00D9313F /* Frameworks */,
 				E34FC5501EAC8F8B00D9313F /* Resources */,
 				D838DF3F1387AE53494116A0 /* [CP] Embed Pods Frameworks */,
@@ -352,8 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E34FC5851EAC92AF00D9313F /* Settings.bundle in Resources */,
+				E33110EB1EACB0D400979C34 /* LaunchScreen.storyboard in Resources */,
+				E33110E61EACAC8500979C34 /* ListTableViewCell.xib in Resources */,
 				E34FC55D1EAC8F8B00D9313F /* Assets.xcassets in Resources */,
-				E34FC55B1EAC8F8B00D9313F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +435,20 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleDeviceHistory/Pods-AppleDeviceHistory-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E33110E71EACAFBE00979C34 /* Run Script - R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - R.swift";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/AppleDeviceHistory/Resources\"";
+		};
 		E34FC5861EAC92FA00D9313F /* Run Script - Settings.bundle */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,6 +481,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			name = "Run Script - Carthage";
 			outputPaths = (
@@ -468,6 +506,8 @@
 				E33110DB1EAC9D5800979C34 /* AppleDeviceList.swift in Sources */,
 				E33110D91EAC9CDD00979C34 /* AppleDeviceRequest.swift in Sources */,
 				E33110D11EAC9C4E00979C34 /* DeviceVersion+Ex.swift in Sources */,
+				E33110E91EACB00C00979C34 /* R.generated.swift in Sources */,
+				E33110E51EACAC8500979C34 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,18 +528,6 @@
 			targetProxy = E34FC5671EAC8F8B00D9313F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E34FC5591EAC8F8B00D9313F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E34FC55A1EAC8F8B00D9313F /* Base */,
-			);
-			name = Main.storyboard;
-			path = .;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E34FC5781EAC8F8B00D9313F /* Debug */ = {
@@ -544,7 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -590,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -611,6 +639,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = AppleDeviceHistory/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -631,6 +660,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = AppleDeviceHistory/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.starhoshi.AppleDeviceHistory;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -37,12 +37,7 @@ final class AppleDeviceAPI {
     }
 
     struct AppleDeviceListRequest: AppleDeviceRequest {
-        let type: Type
-        let target: Version
-
-        init(type: Type, target: Version) {
-            self.type = type
-            self.target = target
+        init() {
         }
 
         // MARK: RequestType

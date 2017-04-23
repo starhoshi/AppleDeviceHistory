@@ -9,6 +9,7 @@
 import Foundation
 import APIKit
 import ObjectMapper
+import UIKit.UIApplication
 
 protocol AppleDeviceRequest: Request {
 }
@@ -28,12 +29,14 @@ extension AppleDeviceRequest where Response: ImmutableMappable {
 extension AppleDeviceRequest {
     func intercept(urlRequest: URLRequest) throws -> URLRequest {
         log?.info("requestURL: \(urlRequest)")
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
         return urlRequest
     }
 
     func intercept(object: Any, urlResponse: HTTPURLResponse) throws -> Any {
         log?.info("raw response header: \(urlResponse)")
         log?.info("raw response body: \(object)")
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
         switch urlResponse.statusCode {
         case 200..<300:
             return object
