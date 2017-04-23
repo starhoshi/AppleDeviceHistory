@@ -7,11 +7,13 @@
 //
 
 import UIKit
-import RxCocoa
 import APIKit
 import SVProgressHUD
+import RxCocoa
+import RxSwift
 
 final class ListViewController: UIViewController {
+    let disposeBag = DisposeBag()
     private lazy var tableView = UITableView(frame: .zero, style: .plain)
     var deviceList: [ListSection] = [] {
         didSet {
@@ -29,6 +31,13 @@ final class ListViewController: UIViewController {
         loadAppleDeviceList()
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        if let indexPathForSelectedRow = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: indexPathForSelectedRow, animated: true)
+        }
+    }
+
     private func loadAppleDeviceList() {
         SVProgressHUD.show()
         let request = AppleDeviceAPI.AppleDeviceListRequest()
@@ -36,6 +45,7 @@ final class ListViewController: UIViewController {
             SVProgressHUD.dismiss()
             switch result {
             case .success(let list):
+                self?.view = self?.tableView
                 self?.deviceList = [
                     ListSection(title: "iPhone", items: list.iphone),
                     ListSection(title: "iPad", items: list.ipad),
@@ -44,14 +54,35 @@ final class ListViewController: UIViewController {
                 ]
             case .failure(let e):
                 log?.warning(e)
+                self?.showError()
             }
         }
+    }
+
+    private func showError() {
+        let button = UIButton(type: .system)
+        button.setTitle("Sorry,\n An error has occurred.\n\nTap to reload.", for: .normal)
+        button.titleLabel?.numberOfLines = 0
+        button.titleLabel?.textAlignment = .center
+        let errorView = UIView()
+        errorView.backgroundColor = .white
+        errorView.addSubview(button)
+        button.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+        }
+        button.rx.tap.subscribe(onNext: { [weak self] _ in
+            self?.loadAppleDeviceList()
+        }).disposed(by: disposeBag)
+        view = errorView
     }
 }
 
 extension ListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         log?.info(indexPath)
+        let detailViewController = DetailViewController.instantiate()
+        detailViewController.appleDevice = deviceList[indexPath.section].items[indexPath.row]
+        navigationController?.pushViewController(detailViewController, animated: true)
     }
 }
 

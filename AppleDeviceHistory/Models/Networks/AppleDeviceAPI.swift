@@ -16,12 +16,10 @@ final class AppleDeviceAPI {
     }
 
     struct TargetDeviceRequest: AppleDeviceRequest {
-        let type: Type
-        let target: Version
+        let targetPath: String
 
-        init(type: Type, target: Version) {
-            self.type = type
-            self.target = target
+        init(targetPath: String) {
+            self.targetPath = targetPath
         }
 
         // MARK: RequestType
@@ -32,7 +30,7 @@ final class AppleDeviceAPI {
         }
 
         var path: String {
-            return "/api/v1/devices/\(type.appleDeviceAPIPath)/\(target.appleDeviceAPIPath).json"
+            return targetPath
         }
     }
 

@@ -25,6 +25,7 @@ final class AppleDevice: ImmutableMappable {
     let connector: String?
     let name: String
     let releaseDate: String
+    let path: String?
 
     init(map: Map) throws {
         url = try map.value("url", using: URLTransform())
@@ -42,5 +43,6 @@ final class AppleDevice: ImmutableMappable {
         connector = try? map.value("connector")
         name = try map.value("name")
         releaseDate = try map.value("release_date")
+        path = try? map.value("path")
     }
 }
