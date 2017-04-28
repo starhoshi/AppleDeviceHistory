@@ -75,6 +75,7 @@ final class DetailViewController: UITableViewController, Storyboardable {
         rearCamera.text = appleDevice.rearCamera ?? noData
         frontCamera.text = appleDevice.frontCamera ?? noData
         dataSource.text = appleDevice.url.absoluteString
+        tableView.reloadData()
     }
 
     private func showError() {
